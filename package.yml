@@ -16,6 +16,7 @@ builddeps  :
     - pkgconfig(x264)
     - libmad-devel
 setup      : |
+    %patch -p1 < $pkgfiles/cdio-cd-text-api.patch
     %configure
 build      : |
     %make
