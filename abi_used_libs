@@ -14,6 +14,7 @@ libgstsdp-0.10.so.0
 libgsttag-0.10.so.0
 libgstvideo-0.10.so.0
 libmad.so.0
+libmp3lame.so.0
 libmpeg2.so.0
 libpthread.so.0
-libx264.so.142
+libx264.so.148

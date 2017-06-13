@@ -2,11 +2,12 @@
     <Source>
         <Name>gst-plugins-ugly</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <License>LGPL-2.0</License>
+        <PartOf>multimedia.gstreamer</PartOf>
         <Summary xml:lang="en">Streaming media framework</Summary>
         <Description xml:lang="en">GStreamer is a streaming media framework that enables applications to share a common set of plugins for things like video encoding and decoding, audio encoding and decoding, audio and video filters, audio visualisation, web streaming and anything else that streams in real-time or otherwise. This package only provides base functionality and libraries.
 </Description>
@@ -19,18 +20,29 @@
 </Description>
         <PartOf>multimedia.gstreamer</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/gstreamer-0.10</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstasf.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstcdio.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstdvdlpcmdec.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstdvdsub.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstiec958.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstlame.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstmad.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstmpeg2dec.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstmpegaudioparse.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstmpegstream.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstrmdemux.so</Path>
+            <Path fileType="library">/usr/lib64/gstreamer-0.10/libgstx264.so</Path>
+            <Path fileType="data">/usr/share/gstreamer-0.10/presets/GstX264Enc.prs</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="data">/usr/share/gstreamer-0.10</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-04-08</Date>
+        <Update release="2">
+            <Date>2017-06-13</Date>
             <Version>0.10.19</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
