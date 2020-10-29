@@ -3,7 +3,7 @@
         <Name>gst-plugins-ugly</Name>
         <Packager>
             <Name>Joshua Strobl</Name>
-            <Email>joshua@streambits.io</Email>
+            <Email>joshua@getsol.us</Email>
         </Packager>
         <License>GPL-2.0</License>
         <License>LGPL-2.0</License>
@@ -75,12 +75,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2020-07-22</Date>
+        <Update release="11">
+            <Date>2020-10-29</Date>
             <Version>0.10.19</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>
-            <Email>joshua@streambits.io</Email>
+            <Email>joshua@getsol.us</Email>
         </Update>
     </History>
 </PISI>
