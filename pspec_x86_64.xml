@@ -2,8 +2,8 @@
     <Source>
         <Name>gst-plugins-ugly</Name>
         <Packager>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <License>LGPL-2.0</License>
@@ -75,12 +75,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="14">
-            <Date>2022-04-02</Date>
+        <Update release="15">
+            <Date>2022-06-20</Date>
             <Version>0.10.19</Version>
             <Comment>Packaging update</Comment>
-            <Name>Algent Albrahimi</Name>
-            <Email>algent@protonmail.com</Email>
+            <Name>Thomas Staudinger</Name>
+            <Email>Staudi.Kaos@gmail.com</Email>
         </Update>
     </History>
 </PISI>
